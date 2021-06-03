@@ -8,55 +8,37 @@ body {
     text-align: left;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+gangnam-style {
+    font-weight: bold;
+    color: blue;
+    border-style: dotted;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
 }
 
-.jumbotron {
-    background-color: #477bff;
-    color: #fff;
-    margin-bottom: 2rem;
-    padding: 2rem 1rem;
-    text-align: center;
+awesome {
+    font-weight: bold;
+    color: red;
+    border-style: dotted;
+    font-family: "Papyrus", "Courier New", monospace;
+    height: 100px;
+    width: 100%;
+    background-color: green;
 }
 
-.section {
-    padding: 0.5rem 2rem 1rem 2rem;
+kanye {
+    background-image: url("aa.jpg");
+    font-size: 5000;
+    font-family: "comic-sans", "Courier New", monospace;
+    border-style: dotted;
+    color: #7FFFD4;
 }
-
-.section:hover {
-    background-color: #f5f5f5;
-    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-}
-
-button, input[type="submit"] {
-    background-color: #d9edff;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-    font-size: 0.95rem;
-    font-weight: 400;
-    line-height: 1.5;
-    padding: 0.375rem 0.75rem;
-    text-align: center;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    vertical-align: middle;
-}
-
-
-input[type="text"] {
-    line-height: 1.8;
-    width: 25%;
-}
-
-input[type="text"]:hover {
-    background-color: #f5f5f5;
-    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+yeah {
+    background-image: url("aa.jpg");
+    font-size: 20;
+    font-family: "arial", "Courier New", monospace;
+    border-style: dotted;
+    color: #7FFFD4;
 }
